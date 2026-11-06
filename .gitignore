@@ -1,0 +1,8 @@
+build/**
+.history/**
+.cache/**
+.config.yaml
+CMakeFiles/**
+/User/xrobot_main.hpp
+/Modules/CMakeLists.txt
+/Modules/*/

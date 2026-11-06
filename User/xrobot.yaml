@@ -1,0 +1,23 @@
+modules: []
+constexpr_namespace: Ops9Config
+constexprs:
+  wheel_radius:
+    type: float
+    value: 0.029F
+  pulses_per_revolution:
+    type: float
+    value: 1024.0F
+  sample_period_ms:
+    type: uint32_t
+    value: 1
+  report_period_ms:
+    type: uint32_t
+    value: 2
+  direction:
+    type: uint8_t
+    value: 2
+  imu_zero_timeout_ms:
+    type: uint32_t
+    value: 2000
+settings:
+  monitor_sleep_ms: 1000

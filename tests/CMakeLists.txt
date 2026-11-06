@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.22)
+project(ops9_tests LANGUAGES CXX)
+enable_testing()
+add_executable(ops9_tests core_test.cpp)
+target_compile_features(ops9_tests PRIVATE cxx_std_20)
+target_include_directories(ops9_tests PRIVATE ../User)
+target_compile_options(ops9_tests PRIVATE -Wall -Wextra -Werror)
+add_test(NAME ops9_core COMMAND ops9_tests)
